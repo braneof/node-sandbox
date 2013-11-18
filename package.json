@@ -15,6 +15,7 @@
     "mocha": "*",
     "should": "*",
     "npmedge": "*",
-    "superagent": "*"
+    "superagent": "*",
+    "nodemon": "*"
   }
 }
