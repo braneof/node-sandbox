@@ -1,0 +1,9 @@
+extends layouts/default
+
+block content
+  h1= blog.title
+  | Published: #{blog.published}
+
+  p
+
+  = blog.body
