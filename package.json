@@ -1,0 +1,20 @@
+{
+  "name": "braneof-test-project",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.x",
+    "jade": "*",
+    "stylus": "*",
+    "coffee-script": "1.x",
+    "underscore": "*",
+    "underscore.string": "*",
+    "connect-assets": "*"
+  },
+  "devDependencies": {
+    "node-dev": "*",
+    "mocha": "*",
+    "should": "*",
+    "npmedge": "*",
+    "superagent": "*"
+  }
+}
