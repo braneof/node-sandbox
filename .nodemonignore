@@ -1,0 +1,8 @@
+# nodemon should ignore these files
+
+/public/*
+./.git/*
+*.swp
+*.swo
+*.swx
+*.css

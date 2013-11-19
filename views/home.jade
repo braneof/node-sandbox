@@ -4,7 +4,7 @@ block content
   h1 Blog!
   each entry in entries
     p
-      a(href="/article/#{id}") #{title}
+      a(href="/article/#{entry.id}") #{entry.title}
       br
-      | Published: #{published}
+      | Published: #{entry.published}
 
