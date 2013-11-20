@@ -7,10 +7,10 @@ var entries = [
 {"id":6, "title":"Help My Kickstarter", "body":"I want a new XBox One. Please fund my Kickstarter.", "published":"6/12/2013"}];
 exports.getBlogEntries = function() {
      return entries;
-}
+};
  
 exports.getBlogEntry = function(id) {
      for(var i=0; i < entries.length; i++) {
              if(entries[i].id == id) return entries[i];
                 }
-}
+};

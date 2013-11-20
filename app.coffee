@@ -18,7 +18,6 @@ app.configure ->
 # Regular http get
 app.get '/', (req, res) ->
   res.render('home', {title: 'My Blog', entries:blogEngine.getBlogEntries()})
-  console.log(entry) for entry in blogEngine.getBlogEntries()
 
 app.get '/about', (req, res) ->
   res.render('about', {title:'About Me'})
@@ -27,4 +26,5 @@ app.get '/article/:id', (req, res) ->
   res.render('article',{title:entry.title, blog:entry})
   console.log entry
 
-app.listen(3000)
+port = process.env.PORT || 3000
+app.listen(port)
